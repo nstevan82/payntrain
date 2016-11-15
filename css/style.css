@@ -1,0 +1,10 @@
+#ui-datepicker-div{
+	background:white;
+	border:1px solid black;
+	padding:10px;
+}
+#state-list td,#state-list th,.report td, .report th{
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
