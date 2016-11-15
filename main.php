@@ -259,6 +259,7 @@ function register_my_theme_settings_menu() {
  
 add_action( "admin_menu", "register_my_theme_settings_menu");
 
+//this is a dummy function
 function mt_settings_page(){}
 
 
