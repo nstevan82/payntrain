@@ -81,7 +81,7 @@ $is_valid_nonce=(isset($_POST['pnt_payments_nonce'])) && wp_verify_nonce($_POST[
 
 if ($is_autosave || $is_revision || !$is_valid_nonce){
 /* if post not valid or is autosave or revision dont save the changes */
-echo "error:";die();
+echo "error: ";die();
 return;
 }
 /* if the page is submited do the update */
